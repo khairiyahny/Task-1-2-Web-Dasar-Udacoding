@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: url(back1.jpg);
+                background-size: cover;
+            }
+            h2 {
+                padding: 20px;
+                background-color: black;
+                border-top-right-radius: 15px;
+                border-top-left-radius: 15px;
+                color: white;
+                text-align: center;
+                font-size: 18px;
+            }
+            .ini, select{
+                background-color: lightgrey;
+                border: none;
+                height: 33px;
+                width: 160px;
+                border-radius: 3px;
+                margin-right: 15px;
+                font-size: 12px;
+            }
+            .itu {
+                background-color: lightgrey;
+                border: none;
+                height: 33px;
+                width: 343px;
+                border-radius: 3px;
+                font-size: 12px;
+            }
+            .ex {
+                padding-left: 15px;
+                background-color: lightgrey;
+                border: none;
+                height: 33px;
+                width: 330px;
+                border-radius: 3px;
+                font-size: 12px;
+            }
+            select {
+                padding-left: 15px;
+                background-color: lightgrey;
+                border: none;
+                height: 33px;
+                width: 345px;
+                border-radius: 3px;
+                font-size: 12px;
+                color: gray;
+            }
+            button {
+                color: white;
+                background-color: tomato;
+                height: 37px;
+                width: 100px;
+                border-radius: 3px;
+                border: none;
+                font-size: 12px;
+            }
+            .regis {
+                margin: auto;
+                background-color: white;
+                width: 540px;
+                height: 560px;
+                border-radius: 15px;
+                font-size: 12px;
+            }
+            .kosong {
+                color: white;
+            }
+            .abu, .abuu {
+                color: lightgrey;
+            }
+            .abu {
+                padding-left: 122px;
+            }
+            .geser {
+                padding-left: 50px;
+            }
+            button:hover {
+                background-color: maroon;
+                cursor: pointer;
+            }
+            .k1 {
+                padding-right: 20px;
+            }
+            .box {
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <form class="regis">
+                <h2 id="judul">EVENT REGISTRATION FORM</h2>
+                    <table align="center">
+                        <tr>
+                            <td>
+                                <b for="name" class="k1">Name</b>
+                            </td>
+                            <td>
+                                <input type="text" name="name" class="ini"/> <input type="text" name="name" class="ini"/> <br>
+                            </td>
+                        <tr>
+                            <td> </td>
+                            <td>
+                                <label class="abuu">First Name</label>
+                                <label class="abu">Last Name</label> <br>
+                                <p> </p>
+                            </td>
+                        <tr>
+                            <td>
+                                <b for="perusahaan" class="k1">Company</b>
+                            </td>
+                            <td>
+                                <input type="text" name="perusahaan" class="itu"/>
+                                <p> </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b for="email" class="k1">Email</b>
+                            </td>
+                            <td>
+                                <input type="text" name="email" placeholder="example@email.com" class="ex"/>
+                                <p> </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b for="phone" class="k1">Phone</b> 
+                            </td>
+                            <td>
+                                <input type="number" name="phone" class="ini"/> <input type="number" name="phone" class="ini"/><br>
+                            </td>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <label class="abuu">Area Code</label>
+                                    <label class="abu">Phone Number</label>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b class="k1">Subject</b>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Choose Option</option>
+                                    <option>Choose Option 1</option>
+                                    <option>Choose Option 2</option>
+                                </select> 
+                            </td>
+                        </tr>
+                        <tr class="kosong">
+                            <td>sjn</td>
+                        </tr>
+                        <tr class="kosong">
+                            <td>dkj</td>
+                        </tr>
+                        <tr>
+                            <td></td> <br>
+                        </tr>
+                    </table>
+                    <div class="geser">
+                        <b>Are you an existing customer?</b> <br>
+                        <p> </p>
+                        <input type="radio" name="?"/ checked> Yes
+                        <input type="radio" name="?"/> No <br>
+                        <div class="kosong">
+                            <p>dsbs</p>
+                        </div>
+                        <button><b>REGISTER</b></button>
+                    </div>
+            </form>
+        </div>
+    </body>
+</html>
